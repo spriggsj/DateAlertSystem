@@ -89,8 +89,8 @@ $postID_end = get_post_id_by_meta_key('EndDate');
 
 $today = date("m/d/Y");
 $mystartdate = get_post_meta($postID_start,"StartDate",true);
-if ( $myenddate == "" )
-     $myenddate = "01/09/2018";
+if ( $mystartdate == "" )
+     $mystartdate = "01/09/2018";
 
 $myenddate = get_post_meta($postID_end, 'EndDate', true);
 if ( $myenddate == "" )
