@@ -1,0 +1,11 @@
+.custom-alert{
+	background-color: red;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color:#fff;
+}
+.custom-alert h3{
+	color:#fff;
+	padding-top: 15px;
+}
